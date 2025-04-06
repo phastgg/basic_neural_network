@@ -34,7 +34,7 @@ jobs:
     - name: Show actor and token (safe)
       run: |
         echo "Actor: $GITHUB_ACTOR"
-        echo "Token starts with: ${github.TOKEN.:0:4}..."
+        echo "Token starts with: ${github.TOKEN:0:4}..."
     
     - name: Publish to GitHub Packages Apache Maven
       run: mvn deploy -B
