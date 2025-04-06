@@ -53,6 +53,12 @@
         </dependency>
 
     </dependencies>
-
+         
+    <distributionManagement>
+         <repository>
+                  <id>github</id>
+                  <url>https://maven.pkg.github.com/phastgg/basic_neural_network</url>
+         </repository>
+    </distributionManagement>
     
 </project>
